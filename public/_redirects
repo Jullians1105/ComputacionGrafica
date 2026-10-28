@@ -1,0 +1,3 @@
+# Netlify: /api se reenvía al backend (evita CORS) y el resto de rutas sirve la SPA.
+/api/*  https://lapticon-backend.onrender.com/api/:splat  200
+/*      /index.html  200

@@ -1,0 +1,22 @@
+# Dependencias y builds (Vercel/Netlify los generan solos)
+node_modules
+dist
+dev-dist
+*.tsbuildinfo
+
+# Variables de entorno: los valores reales van en el panel del hosting
+*.local
+.env
+.env.*
+!.env.example
+
+# Material de trabajo (no necesario para desplegar)
+design/
+docs/
+CLAUDE.md
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
